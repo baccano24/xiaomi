@@ -8,6 +8,9 @@ ul, ol{
 a{
     text-decoration: none;
 }
+img{
+    dorder: 0;
+}
 /*banner开始*/
 .banner{
      height: 120px;
@@ -39,5 +42,37 @@ a{
 .main-nav li span{
     color: #424242;
     margin: 0 5px;
+}
+.main-nav li a:hover {
+    color: white;
+}
+.user-info{
+    float: right;
+}
+.user-info li{
+    float: left;
+    height: 40px;
+    line-height: 40px;
+
+}
+.user-info,iconfont icon-cart li a{
+    color: #b0b0b0;
+}
+.user-info li a{
+    color: #b0b0b0;
+    font-size: 12px;
+    height: 40px;
+    margin-left: 5px;
+    margin-right: 5px;
+}
+.user-info li span{
+    color: #424242;
+    margin: 0 5px;
+}
+.user-info li:hover{
+    color: white;
+}
+.user-info li:hover a{
+    color: white;
 }
 /*nav结束*/
