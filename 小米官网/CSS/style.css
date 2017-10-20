@@ -106,10 +106,27 @@ img{
     right: 0px;
     top: 40px;
     color: black;
-    box-shadow: 0 0px 4px 3px rgba(0,0,0,0.05);
+    box-shadow: 0 1px 4px 3px rgba(0,0,0,0.05);
     display: none;
 }
 .user-info .cart:hover .cart-box{
     display: block;
 }
 /*nav结束*/
+/*mi-logo开始*/
+.mi-logo{
+    height: 55px;
+    width: 55px;
+}
+.mi-logo a{
+    display: block;
+    height: 55px;
+    width: 55px;
+    background: url("../img/mi-logo.png")no-repeat center center #ff6700;
+}
+.mi-logo{
+    position: relative;
+    top: 25px;
+    left: 70px;
+
+}
